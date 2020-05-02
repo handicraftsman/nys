@@ -1,0 +1,16 @@
+[package]
+name = "nys"
+version = "0.1.0"
+edition = "2018"
+authors = [ "Nickolay Ilyushin <nickolay.ilyushin@gmail.com>" ]
+description = "A declarative parer generator library"
+repository = "https://github.com/handicraftsman/nys/"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.10"
+quote = "1.0.3"
+syn = { version = "1.0.18", features = [ "full" ] }
